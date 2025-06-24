@@ -8,7 +8,8 @@ const usuarioSchema = new mongoose.Schema({
   rol: String, // paciente, medico, admin
   especialidad: String, // solo para médicos
   correo: String,
-  telefono: String
+  telefono: String,
+  prevision: String // ✅ agregar esto
 });
 
 module.exports = mongoose.model("Usuario", usuarioSchema);
