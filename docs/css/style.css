@@ -1,0 +1,33 @@
+.bg-lunes { background-color: #e3f2fd; }
+.bg-martes { background-color: #f1f8e9; }
+.bg-miercoles { background-color: #fff3e0; }
+.bg-jueves { background-color: #fce4ec; }
+.bg-viernes { background-color: #ede7f6; }
+.bg-sabado { background-color: #f9fbe7; }
+
+body {
+  padding-top: 70px;
+  background-color: #f8f9fa;
+}
+.navbar-brand {
+  font-weight: bold;
+}
+.card-custom {
+  border: none;
+  box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,.075);
+  border-radius: .5rem;
+}
+.btn-primary {
+  background-color: #00695c;
+  border-color: #00695c;
+}
+.btn-primary:hover {
+  background-color: #004d40;
+  border-color: #004d40;
+}
+.bg-lunes { background-color: #e3f2fd; }
+.bg-martes { background-color: #f1f8e9; }
+.bg-miercoles { background-color: #fff3e0; }
+.bg-jueves { background-color: #fce4ec; }
+.bg-viernes { background-color: #ede7f6; }
+.bg-sabado { background-color: #f9fbe7; }

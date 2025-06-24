@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Clínica Red | Iniciar Sesión</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    body {
+      background-color: #f4f6f8;
+    }
+    .logo-bar {
+      background-color: #ffffff;
+      padding: 10px 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo-bar img {
+      height: 60px;
+      margin: 0 20px;
+    }
+    .card-custom {
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border: none;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Logos -->
+  <div class="logo-bar container-fluid">
+    <img src="img/LOGO USS.png" alt="USS" />
+    <h4 class="mb-0">Clínica Red</h4>
+    <img src="img/logo-red-salud.png" alt="RedSalud" />
+  </div>
+
+  <!-- Formulario principal -->
+  <main class="container mt-5">
+    <div class="row">
+      <!-- Iniciar sesión -->
+      <div class="col-md-6 mb-4">
+        <div class="card card-custom p-4">
+          <h4 class="mb-3">Iniciar Sesión</h4>
+          <form id="formLogin" onsubmit="login(event)">
+            <input id="rut" class="form-control mb-3" placeholder="RUT" required />
+            <input id="password" type="password" class="form-control mb-3" placeholder="Contraseña" required />
+            <button class="btn btn-primary w-100">Ingresar</button>
+          </form>
+          <p class="text-danger mt-2" id="error"></p>
+        </div>
+      </div>
+
+      <!-- Crear cuenta -->
+      <div class="col-md-6 mb-4">
+        <div class="card card-custom p-4">
+          <h4 class="mb-3">Crear Cuenta (Paciente)</h4>
+          <form id="formRegistro" onsubmit="registrarPaciente(event)">
+            <input id="rutRegistro" class="form-control mb-2" placeholder="RUT (ej: 12345678-9)" required />
+            <input id="nombreRegistro" class="form-control mb-2" placeholder="Nombre completo" required />
+            <input id="previsionRegistro" class="form-control mb-2" placeholder="Previsión (ej: Fonasa, Isapre)" required />
+            <input id="passwordRegistro" type="password" class="form-control mb-2" placeholder="Contraseña" required />
+            <button class="btn btn-success w-100">Registrarse</button>
+          </form>
+          <p class="text-success mt-2" id="registroOk"></p>
+          <p class="text-danger" id="registroError"></p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    Proyecto Clínica Red – Universidad San Sebastián © 2025
+  </footer>
+
+  <script src="js/login.js"></script>
+</body>
+</html>
