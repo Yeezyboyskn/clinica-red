@@ -44,7 +44,7 @@ async function registrarPaciente(e) {
         nombre,
         password,
         rol: "paciente",
-        prevision
+        prevision,
       })
     });
 
