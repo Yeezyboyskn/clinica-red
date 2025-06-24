@@ -34,7 +34,7 @@ async function fetchJSON(url, opts = {}) {
   return res.json();
 }
 
-const API = "http://localhost:3000/api";
+const API = "https://clinica-red-production.up.railway.app/api";
 const especialidadSelect = document.getElementById("especialidad");
 const profesionalSelect = document.getElementById("profesional");
 const diaSelect = document.getElementById("dia");
