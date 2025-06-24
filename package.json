@@ -1,0 +1,26 @@
+{
+  "name": "clinica-red",
+  "version": "1.0.0",
+  "description": "",
+  "main": "datos-falsos.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yeezyboyskn/clinica-red.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yeezyboyskn/clinica-red/issues"
+  },
+  "homepage": "https://github.com/Yeezyboyskn/clinica-red#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.0",
+    "xlsx": "^0.18.5"
+  }
+}
