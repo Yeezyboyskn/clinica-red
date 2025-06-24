@@ -9,7 +9,7 @@ const usuarioSchema = new mongoose.Schema({
   especialidad: String, // solo para médicos
   correo: String,
   telefono: String,
-  prevision: String // ✅ agregar esto
+  prevision: String, // ✅ agregar esto
 });
 
 module.exports = mongoose.model("Usuario", usuarioSchema);
