@@ -1,4 +1,4 @@
-const API = "http://localhost:3000/api";
+const API = "https://clinica-red-production.up.railway.app/api";
 
 // Verificar usuario y rol (user ya está disponible desde dashboard.html)
 if (!user || user.rol !== "medico") {

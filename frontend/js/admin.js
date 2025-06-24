@@ -1,4 +1,6 @@
-const API = "http://localhost:3000/api";
+// frontend/js/config.js
+const API = "https://clinica-red-production.up.railway.app/api";
+
 
 // Cargar estructura del panel de administración
 document.getElementById("contenido").innerHTML = `
